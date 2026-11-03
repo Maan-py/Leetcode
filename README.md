@@ -17,4 +17,4 @@ Dimulai sejak **3 November 2026**.
 
 | No | Soal | Level | Pola | Status | Review |
 |----|------|-------|------|--------|--------|
-| 0014 | [Longest Common Prefix](easy/0014-longest-common-prefix.py) | Easy | - | Belum | - |
+| 0014 | [Longest Common Prefix](easy/0014-longest-common-prefix.py) | Easy | Vertical Scanning | Selesai | [jurnal](easy/0014-longest-common-prefix.md) |
