@@ -15,8 +15,8 @@ Siapkan soal LeetCode hari ini dari antrian.
    itu dan tanya apakah tetap mau ambil soal berikutnya. Jangan lanjut sebelum dijawab.
 
 3. **Buat soal tersebut** dengan mengikuti langkah 1–4 di `.claude/commands/catat.md`
-   persis (nama file, cek duplikat, template docstring + class `Solution` kosong,
-   update tabel dan progres README). Aturan yang sama berlaku:
+   persis (nama file, cek duplikat, file `.py` dengan docstring + class `Solution`
+   kosong, file jurnal `.md` kosong, update tabel dan progres README). Aturan yang sama berlaku:
    **JANGAN tulis solusi, petunjuk, atau ide penyelesaian. Isi method hanya `pass`.**
 
 4. **Hapus baris soal itu dari `antrian.txt`.** Jika sesudahnya sebuah bagian
@@ -28,6 +28,6 @@ Siapkan soal LeetCode hari ini dari antrian.
    Saat soal Easy terakhir diambil, beri tahu bahwa mulai besok masuk ke Medium.
 
 5. Jangan commit. Laporkan singkat:
-   - path file yang dibuat,
+   - path file `.py` dan `.md` yang dibuat,
    - progres terbaru (Easy x / 26, Medium x / 73),
    - sisa soal di antrian.
