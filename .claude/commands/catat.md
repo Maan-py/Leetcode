@@ -21,8 +21,10 @@ hentikan dan beri tahu formatnya yang benar. Jangan menebak.
 ## Langkah
 
 1. **Tentukan nama file**: nomor di-pad jadi 4 digit + nama soal dalam kebab-case
-   (huruf kecil, spasi → `-`, hapus karakter selain huruf/angka/`-`).
-   Contoh: `0001-two-sum.py`. Path: `<level>/<nama-file>`.
+   (huruf kecil, spasi → `-`, hapus karakter selain huruf/angka/`-`, lalu rapatkan
+   `-` yang berurutan jadi satu dan buang `-` di awal/akhir).
+   Contoh: `0001-two-sum.py`, `0167-two-sum-ii-input-array-is-sorted.py`.
+   Path: `<level>/<nama-file>`.
 
 2. **Cek duplikat**: jika file itu sudah ada, atau nomor tersebut sudah ada di tabel
    README, hentikan dan beri tahu saya. Jangan menimpa apa pun.
@@ -67,4 +69,7 @@ hentikan dan beri tahu formatnya yang benar. Jangan menebak.
    - Perbarui bagian "Progres": hitung ulang jumlah file `.py` di `easy/` dan
      `medium/`, lalu tulis `Easy: <n> / 26` dan `Medium: <n> / 73`.
 
-5. Jangan commit. Cukup laporkan singkat: path file yang dibuat dan progres terbaru.
+5. **Sinkronkan antrian**: jika nomor soal ini ada di `antrian.txt`, hapus barisnya
+   supaya tidak muncul lagi lewat `/harian`.
+
+6. Jangan commit. Cukup laporkan singkat: path file yang dibuat dan progres terbaru.
