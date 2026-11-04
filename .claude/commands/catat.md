@@ -50,7 +50,22 @@ hentikan dan beri tahu formatnya yang benar. Jangan menebak.
    class Solution:
        def <namaMethod>(self, <parameter>) -> <tipe>:
            pass
+
+
+   if __name__ == "__main__":
+       s = Solution()
+       print(s.<namaMethod>(<input contoh 1>))  # <output contoh 1>
+       print(s.<namaMethod>(<input contoh 2>))  # <output contoh 2>
    ```
+
+   - **Blok test** berisi satu baris `print` untuk setiap **Example resmi** di soal
+     LeetCode, dengan output yang diharapkan sebagai komentar di ujung baris.
+     Hanya pakai contoh yang memang tertulis di soal, jangan menambah kasus sendiri
+     (kasus tambahan bisa jadi petunjuk; itu bagian saya). Jika tidak yakin dengan
+     contoh resminya, tulis `# TODO: salin Example dari soal` dan sebutkan dalam laporan.
+   - Jika input/output memakai `ListNode`/`TreeNode`, jangan buat helper; tulis
+     contohnya sebagai komentar saja (`# Example 1: head = [1,2,3] -> [3,2,1]`)
+     ditambah `# TODO: buat input-nya`.
 
    - `<namaMethod>` = nama method resmi LeetCode untuk soal itu (camelCase),
      beserta parameter dan type hint-nya sesuai signature resmi jika kamu tahu pasti.

@@ -16,7 +16,8 @@ Siapkan soal LeetCode hari ini dari antrian.
 
 3. **Buat soal tersebut** dengan mengikuti langkah 1–4 di `.claude/commands/catat.md`
    persis (nama file, cek duplikat, file `.py` dengan docstring + class `Solution`
-   kosong, file jurnal `.md` kosong, update tabel dan progres README). Aturan yang sama berlaku:
+   kosong + blok test dari Example resmi, file jurnal `.md` kosong, update tabel
+   dan progres README). Aturan yang sama berlaku:
    **JANGAN tulis solusi, petunjuk, atau ide penyelesaian. Isi method hanya `pass`.**
 
 4. **Hapus baris soal itu dari `antrian.txt`.** Jika sesudahnya sebuah bagian
