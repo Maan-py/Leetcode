@@ -8,7 +8,6 @@
 # ===================== EASY =====================
 
 # --- Easy: Array & Hashing ---
-0217 | Contains Duplicate | easy
 0242 | Valid Anagram | easy
 0268 | Missing Number | easy
 
