@@ -14,11 +14,11 @@ from typing import List
 
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        for i in range(len(nums)):
-            for j in range(i + 1, len(nums)):
-                if nums[i] == nums[j]:
-                    return True
-        return False
+        # for i in range(len(nums)):
+        #     for j in range(i + 1, len(nums)):
+        #         if nums[i] == nums[j]:
+        #             return True
+        # return False
 
         # duplicates = [i for i in set(nums) if nums.count(i) > 1]
 
@@ -27,19 +27,19 @@ class Solution:
         # else:
         #     return False
 
-        # seen = set()
-        # duplicates = []
+        seen = set()
+        duplicates = []
 
-        # for i in nums:
-        #     if i in seen:
-        #         duplicates.append(i)
-        #     else:
-        #         seen.add(i)
+        for i in nums:
+            if i in seen:
+                duplicates.append(i)
+            else:
+                seen.add(i)
 
-        # if duplicates != []:
-        #     return True
-        # else:
-        #     return False
+        if duplicates != []:
+            return True
+        else:
+            return False
 
 if __name__ == "__main__":
     s = Solution()
