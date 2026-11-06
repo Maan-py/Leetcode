@@ -10,7 +10,7 @@ Dimulai sejak **3 November 2026**.
 
 ## Progres
 
-- Easy: 3 / 26
+- Easy: 4 / 26
 - Medium: 0 / 73
 
 ## Daftar Soal
@@ -20,3 +20,4 @@ Dimulai sejak **3 November 2026**.
 | 0001 | [Two Sum](easy/0001-two-sum.py) | Easy | - | Belum | [jurnal](easy/0001-two-sum.md) |
 | 0014 | [Longest Common Prefix](easy/0014-longest-common-prefix.py) | Easy | Vertical Scanning | Selesai | [jurnal](easy/0014-longest-common-prefix.md) |
 | 0217 | [Contains Duplicate](easy/0217-contains-duplicate.py) | Easy | - | Belum | [jurnal](easy/0217-contains-duplicate.md) |
+| 0242 | [Valid Anagram](easy/0242-valid-anagram.py) | Easy | - | Belum | [jurnal](easy/0242-valid-anagram.md) |
