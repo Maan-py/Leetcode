@@ -7,9 +7,6 @@
 
 # ===================== EASY =====================
 
-# --- Easy: Array & Hashing ---
-0268 | Missing Number | easy
-
 # --- Easy: Two Pointers ---
 0125 | Valid Palindrome | easy
 
