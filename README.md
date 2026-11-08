@@ -10,7 +10,7 @@ Dimulai sejak **3 November 2026**.
 
 ## Progres
 
-- Easy: 6 / 26
+- Easy: 7 / 26
 - Medium: 0 / 73
 
 ## Daftar Soal
@@ -19,6 +19,7 @@ Dimulai sejak **3 November 2026**.
 |----|------|-------|------|--------|--------|
 | 0001 | [Two Sum](easy/0001-two-sum.py) | Easy | Brute Force | Selesai | [jurnal](easy/0001-two-sum.md) |
 | 0014 | [Longest Common Prefix](easy/0014-longest-common-prefix.py) | Easy | Vertical Scanning | Selesai | [jurnal](easy/0014-longest-common-prefix.md) |
+| 0121 | [Best Time to Buy and Sell Stock](easy/0121-best-time-to-buy-and-sell-stock.py) | Easy | Sliding Window (Min Sejauh Ini) | Selesai | [jurnal](easy/0121-best-time-to-buy-and-sell-stock.md) |
 | 0125 | [Valid Palindrome](easy/0125-valid-palindrome.py) | Easy | Two Pointers | Selesai | [jurnal](easy/0125-valid-palindrome.md) |
 | 0217 | [Contains Duplicate](easy/0217-contains-duplicate.py) | Easy | Hashing (Set) | Selesai | [jurnal](easy/0217-contains-duplicate.md) |
 | 0242 | [Valid Anagram](easy/0242-valid-anagram.py) | Easy | Coret Pasangan (List) | Selesai | [jurnal](easy/0242-valid-anagram.md) |

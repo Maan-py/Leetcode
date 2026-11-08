@@ -7,9 +7,6 @@
 
 # ===================== EASY =====================
 
-# --- Easy: Sliding Window ---
-0121 | Best Time to Buy and Sell Stock | easy
-
 # --- Easy: Stack ---
 0020 | Valid Parentheses | easy
 
