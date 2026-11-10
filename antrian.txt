@@ -7,9 +7,6 @@
 
 # ===================== EASY =====================
 
-# --- Easy: Stack ---
-0020 | Valid Parentheses | easy
-
 # --- Easy: Binary Search ---
 0704 | Binary Search | easy
 0035 | Search Insert Position | easy
