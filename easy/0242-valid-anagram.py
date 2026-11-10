@@ -1,12 +1,19 @@
 """
 Soal    : 242. Valid Anagram
 Tanggal : 2026-11-06
-Pola    :
-Ide     :
-Buntu   :
-Waktu   : O()
-Memori  : O()
-Status  : Belum
+Pola    : Coret pasangan (list)
+Ide     : Salin t ke list huruf_t. Untuk tiap huruf di s: kalau ada di
+          huruf_t -> remove(huruf); kalau tidak ada -> False.
+          Setelah loop, huruf_t harus kosong.
+Buntu   : - Awalnya hanya cek "hurufnya ada di t?", tanpa memperhatikan
+            jumlahnya -> "aab", "abb" jadi True.
+          - Peran tertukar: huruf_t[i] in s (s tidak pernah dicoret).
+          - remove(huruf_t[i]) menghapus huruf di posisi i, bukan huruf yang
+            dicari; for j masih ada; return di dalam loop.
+          - Aturan: daftar yang dicek dengan in = daftar yang dicoret.
+Waktu   : O(n^2), in dan remove di list O(n) untuk tiap huruf
+Memori  : O(n), huruf_t salinan t
+Status  : Selesai. Versi lebih cepat (dictionary hitung huruf) belum.
 """
 
 from typing import List

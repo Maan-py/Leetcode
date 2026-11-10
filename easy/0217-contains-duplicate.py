@@ -1,12 +1,17 @@
 """
 Soal    : 217. Contains Duplicate
 Tanggal : 2026-11-05
-Pola    :
-Ide     :
-Buntu   :
-Waktu   : O()
-Memori  : O()
-Status  : Belum
+Pola    : Hashing (set)
+Ide     : Telusuri angka satu per satu, simpan yang sudah dilihat di set.
+          Kalau angka sekarang sudah ada di set -> ada duplikat (True).
+Buntu   : - Nested loop cek semua pasangan -> TLE. Early return tidak menolong
+            di kasus terburuk (semua angka beda, sekitar 1,5 miliar
+            perbandingan untuk 54.500 angka).
+          - nums.count() di dalam comprehension tetap O(n^2) -> TLE juga.
+          - Alternatif: sort lalu cek tetangga, O(n log n) waktu, O(1) memori.
+Waktu   : O(n), cek in / add di set rata-rata O(1)
+Memori  : O(n), terburuk semua angka masuk set
+Status  : Selesai
 """
 
 from typing import List

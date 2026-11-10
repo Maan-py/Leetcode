@@ -1,12 +1,20 @@
 """
 Soal    : 121. Best Time to Buy and Sell Stock
 Tanggal : 2026-11-09
-Pola    :
-Ide     :
-Buntu   :
-Waktu   : O()
-Memori  : O()
-Status  : Belum
+Pola    : Sliding Window / running minimum (harga termurah sejauh ini)
+Ide     : Lihat dari sisi JUAL: kalau jual hari ini, beli terbaiknya adalah
+          harga termurah sebelum hari ini. Satu loop, tiap hari:
+          cheapest = min(cheapest, price), profit_today = price - cheapest,
+          highest_profit = max(highest_profit, profit_today).
+Buntu   : - min(prices) lalu max sesudahnya -> salah di [2, 4, 1], karena
+            harga termurah ada di hari terakhir (tidak bisa dijual).
+          - Brute force semua pasangan -> TLE (n = 10^5, sekitar 5 miliar
+            pasangan) dan list_profit boros memori; max([]) error kalau 1 hari.
+          - Bingung mengubah tabel jadi kode -> mulai dari satu kolom dulu
+            (termurah sejauh ini = satu variabel yang ditimpa terus).
+Waktu   : O(n), satu loop
+Memori  : O(1), hanya 3 variabel
+Status  : Selesai
 """
 
 from typing import List

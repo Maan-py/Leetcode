@@ -1,12 +1,13 @@
 """
 Soal    : 268. Missing Number
 Tanggal : 2026-11-07
-Pola    :
-Ide     :
-Buntu   :
-Waktu   : O()
-Memori  : O()
-Status  : Belum
+Pola    : Cek rentang 0..n
+Ide     : Cek tiap angka dari 0 sampai n (range(len(nums) + 1)). Angka
+          pertama yang tidak ada di nums adalah jawabannya.
+Buntu   : - + 1 di range penting supaya n ikut dicek ([0, 1] -> 2).
+Waktu   : O(n^2), not in pada list O(n) untuk tiap angka
+Memori  : O(1)
+Status  : Selesai. Follow-up O(n) waktu + O(1) memori belum.
 """
 
 from typing import List
