@@ -10,7 +10,7 @@ Dimulai sejak **3 November 2026**.
 
 ## Progres
 
-- Easy: 8 / 26
+- Easy: 9 / 26
 - Medium: 0 / 73
 
 ## Daftar Soal
@@ -25,3 +25,4 @@ Dimulai sejak **3 November 2026**.
 | 0217 | [Contains Duplicate](easy/0217-contains-duplicate.py) | Easy | Hashing (Set) | Selesai | [jurnal](easy/0217-contains-duplicate.md) |
 | 0242 | [Valid Anagram](easy/0242-valid-anagram.py) | Easy | Coret Pasangan (List) | Selesai | [jurnal](easy/0242-valid-anagram.md) |
 | 0268 | [Missing Number](easy/0268-missing-number.py) | Easy | Cek Rentang 0..n | Selesai | [jurnal](easy/0268-missing-number.md) |
+| 0704 | [Binary Search](easy/0704-binary-search.py) | Easy | Binary Search | Selesai | [jurnal](easy/0704-binary-search.md) |
