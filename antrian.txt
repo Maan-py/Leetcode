@@ -7,9 +7,6 @@
 
 # ===================== EASY =====================
 
-# --- Easy: Binary Search ---
-0035 | Search Insert Position | easy
-
 # --- Easy: Linked List ---
 0206 | Reverse Linked List | easy
 0021 | Merge Two Sorted Lists | easy
