@@ -10,7 +10,7 @@ Dimulai sejak **3 November 2026**.
 
 ## Progres
 
-- Easy: 10 / 26
+- Easy: 11 / 26
 - Medium: 0 / 73
 
 ## Daftar Soal
@@ -23,6 +23,7 @@ Dimulai sejak **3 November 2026**.
 | 0035 | [Search Insert Position](easy/0035-search-insert-position.py) | Easy | Binary Search (Posisi Sisip) | Selesai | [jurnal](easy/0035-search-insert-position.md) |
 | 0121 | [Best Time to Buy and Sell Stock](easy/0121-best-time-to-buy-and-sell-stock.py) | Easy | Sliding Window (Min Sejauh Ini) | Selesai | [jurnal](easy/0121-best-time-to-buy-and-sell-stock.md) |
 | 0125 | [Valid Palindrome](easy/0125-valid-palindrome.py) | Easy | Two Pointers | Selesai | [jurnal](easy/0125-valid-palindrome.md) |
+| 0206 | [Reverse Linked List](easy/0206-reverse-linked-list.py) | Easy | - | Belum | [jurnal](easy/0206-reverse-linked-list.md) |
 | 0217 | [Contains Duplicate](easy/0217-contains-duplicate.py) | Easy | Hashing (Set) | Selesai | [jurnal](easy/0217-contains-duplicate.md) |
 | 0242 | [Valid Anagram](easy/0242-valid-anagram.py) | Easy | Coret Pasangan (List) | Selesai | [jurnal](easy/0242-valid-anagram.md) |
 | 0268 | [Missing Number](easy/0268-missing-number.py) | Easy | Cek Rentang 0..n | Selesai | [jurnal](easy/0268-missing-number.md) |
