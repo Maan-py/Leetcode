@@ -8,7 +8,6 @@
 # ===================== EASY =====================
 
 # --- Easy: Linked List ---
-0021 | Merge Two Sorted Lists | easy
 0141 | Linked List Cycle | easy
 
 # --- Easy: Trees ---
